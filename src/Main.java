@@ -9,6 +9,6 @@ public class Main{
         nums[2]=1;
         nums[3]=9;
         nums[4]=2;
-        prueba.ordenarNumsPila2(nums);
+        prueba.ordenarNumsPila(nums);
     }
 }
