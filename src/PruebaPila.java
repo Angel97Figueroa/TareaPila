@@ -73,7 +73,7 @@ public class PruebaPila{
         while(!pila2.pilaVacia()){
             int numTemp=pila2.pop();
             pila1.push(numTemp);
-            System.out.println(numTemp);
+            System.out.print(numTemp+" ");
         }
         while(!pila1.pilaVacia()){
             pila2.push(pila1.pop());
