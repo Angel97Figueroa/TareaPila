@@ -49,22 +49,6 @@ public class PruebaPila{
     }
 
     public Pila<Integer> ordenarNumsPila(int[] cadenaNums){
-        ArrayList<Integer> numerosOrdenados=new ArrayList<>();
-        for(int i=0;i<cadenaNums.length;i++){
-            numerosOrdenados.add(cadenaNums[i]);
-        }
-        Collections.sort(numerosOrdenados);
-        System.out.println(numerosOrdenados);
-        Pila<Integer> pilaNums=new Pila<>();
-        for(int i=0;i<numerosOrdenados.size();i++){
-            if(!pilaNums.pilaLlena()){
-                pilaNums.push(numerosOrdenados.get(i));
-            }
-        }
-        return pilaNums;
-    }
-
-    public Pila<Integer> ordenarNumsPila2(int[] cadenaNums){
         Pila<Integer> pila1=new Pila<>();
         Pila<Integer> pila2=new Pila<>();
         for (int num:cadenaNums){
